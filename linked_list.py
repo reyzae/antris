@@ -1,5 +1,3 @@
-# linked_list.py
-
 from ui import panel
 from ui import akhir
 from ui import kembali_ke_menu

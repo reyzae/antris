@@ -1,5 +1,3 @@
-# data_servis.py
-
 from models import Servis
 from linked_list import RiwayatServis
 from sorting import bubble_sort_nama
@@ -17,7 +15,8 @@ riwayat_servis = RiwayatServis()
 
 # Nomor servis otomatis
 nomor_berikutnya = 1
-# Menu 1: Tambah data servis
+
+# Menu 1: untuk Tambah data servis
 def tambah_data():
     global nomor_berikutnya
 
@@ -68,10 +67,10 @@ def tambah_data():
     print(f"Biaya Servis   : Rp{data_baru.biaya:,}")
     print(f"Posisi Antrean : {len(antrean_servis)}")
     akhir()
-    kembali_ke_menu()
+    kembali_ke_menu()   
 
 
-# Menu 2: Tampilkan antrean
+# Menu 2: untuk menampilkan antrean
 def tampilkan_data():
     panel("DAFTAR ANTREAN SERVIS")
 
@@ -96,7 +95,7 @@ def tampilkan_data():
     kembali_ke_menu()
 
 
-# Menu 3: Cari data servis
+# Menu 3: untuk Cari data servis
 def cari_data():
     panel("CARI DATA SERVIS")
 
@@ -124,7 +123,7 @@ def cari_data():
     kembali_ke_menu()
 
 
-# Menu 4: Urutkan nama A-Z
+# Menu 4: untuk mengurutkan nama A-Z
 def urutkan_nama():
     panel("URUTKAN DATA BERDASARKAN NAMA")
 

@@ -1,5 +1,3 @@
-# main.py
-
 from data_servis import (
     tambah_data,
     tampilkan_data,
